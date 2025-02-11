@@ -1,0 +1,38 @@
+/* Header.css */
+
+/* General container styling */
+.header-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Title styling */
+.header-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Navigation styling */
+.header-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Links styling */
+.header-link {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.header-link:hover {
+  color: #0056b3;
+}

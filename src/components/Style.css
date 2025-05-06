@@ -2,9 +2,12 @@
     width: 100%;
     height: 100vh;
     padding-top: 80px;
-    /* background-color: rgb(137, 170, 237); */
-    background-color: aliceblue;
+    background-image: url('../Assets/wea.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 .weather {
     width: 380px;
@@ -13,8 +16,10 @@
     margin: 50px auto;
     text-align: center;
     color: white;
-    background: linear-gradient(130deg, rgb(86, 86, 235), rgb(5, 5, 199));
+    background: rgba(0, 0, 0, 0.5); /* translucent dark overlay */
+    backdrop-filter: blur(8px); /* frosted glass effect */
 }
+
 
 .search {   
     display: flex;
